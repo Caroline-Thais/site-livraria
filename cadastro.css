@@ -104,6 +104,18 @@ html {
     margin: 0;
     padding-top: 5em;
 }
+@media (max-width: 500px){
+    .bem-vindo-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 5em 1em;
+        align-items: center;
+    }
+    .bem-vindo-image img{
+        height: 300px;
+    }
+}
 
 .historia{
     height: 100vh;
@@ -116,10 +128,25 @@ html {
     justify-content: center;
     text-align: justify;
 }
+@media (max-width: 500px){
+    .historia{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .historia img{
+        height: 200px;
+    }
+}
 
 .historia-content{
     padding: 8em;
     line-height: 1.5em;
+}
+@media (max-width: 500px){
+    .historia-content{
+        padding: 1em;
+    }
 }
 
 .historia-img{
@@ -128,6 +155,11 @@ html {
 
 .historia p, h3{
     display: inline;
+}
+@media (max-width: 500px){
+    .historia-img{
+        margin-right: 0;
+    }
 }
 
 .box{
@@ -145,6 +177,12 @@ html {
 .box-p{
     padding: 0 30em;
     line-height: 1.5em;
+}
+@media (max-width: 500px){
+    .box-p{
+        margin: 0;
+        padding: 1em;
+    }
 }
 
 .box-icon{
@@ -167,6 +205,13 @@ html {
 .time-content{
     padding: 0 30em;
 }
+@media (max-width: 500px){
+    .time-content{
+        margin: 0;
+        padding: 1em;
+        text-align: justify;
+    }
+}
 
 .gaucho{
     display: flex;
@@ -178,6 +223,15 @@ html {
     width: 100vw;
     margin: 0;
     color: white;
+}
+@media (max-width: 500px){
+    .gaucho{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 1em;
+
+    }
 }
 
 .gaucho-content{

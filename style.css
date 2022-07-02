@@ -448,6 +448,13 @@
   .stories {
     padding: 10rem 0;
     position: relative;
+
+    height: 100vh;
+    margin: 3.5rem;
+    box-shadow: 0 1rem 2rem var(--grey-color);
+    overflow: hidden;
+    color: var(--white-color);
+    font-size: 3em;
   }
   
   .video-container {
@@ -476,7 +483,7 @@
     padding: 5rem;
     margin: 5rem;
     width: 70%;
-    box-shadow: 0 2rem 5rem rgba(51, 51, 51, 0.4);
+    color: var(--grey-color);
   }
   
   .story {
@@ -492,7 +499,7 @@
     font-size: 2.5rem;
     text-transform: uppercase;
     color: var(--grey-color);
-    margin-bottom: 1rem;
+    margin: 25%
   }
   
   .story-paragraph {
@@ -506,8 +513,14 @@
   /* Fim de Vídeo */
   
   /*Indicacoes*/
+
+  .dates{
+    display: flex;
+
+  }
   .recommendations{
-    height: 100vh;
+    height: 40vh;
+    width: 30%;
     margin: 3.5rem;
     box-shadow: 0 1rem 2rem var(--grey-color);
     overflow: hidden;
@@ -522,14 +535,7 @@
     width: 20em;
   }
   
-  .recommendations img{
-      width: 10rem;
-      height: 10rem;
-      border-radius: 50%;
-      object-fit: cover;
-      margin-right: 5rem;
-    
-  }
+
   /*Fim de indicacoes*/
   
   /* Cards */
