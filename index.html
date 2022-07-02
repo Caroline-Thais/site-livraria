@@ -10,11 +10,32 @@
     <link href="https://fonts.googleapis.com/css?family=Vollkorn:400,400i,600,700,900&display=swap"
       rel="stylesheet"/>
     <link rel="stylesheet" href="style.css" />
-    <title>Minha Biblioteca Católica</title>
+    <title>Book Club</title>
   </head>
-  <body> 
 
+  <body> 
  <div class="container">
+  <div class="open-navbar-icon navbar-icon center">
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+  </div>
+  <div class="navbar-wrapper">
+    <nav class="navbar">
+      <div class="close-navbar-icon navbar-icon center">
+        <div class="line line-1"></div>
+        <div class="line line-2"></div>
+      </div>
+      <div class="nav-list">
+        <a href="#" class="nav-link center">Escolha seu plano</a>
+        <a href="#" class="nav-link center">Preencha o formulário</a>
+        <a href="#" class="nav-link center">Receba o seu box</a>
+      </div>
+    </nav>
+  </div>
+ 
+
+<!--Main hero-->
   <header class="header center">
     <div class="header-text">
       <h1 class="heading">Clube de livros</h1>
@@ -35,59 +56,10 @@
     </div>
   </header>
  </div>
-
-
-
-
-
-
-
-
-
-
-
-   <!--
-  <main>
-      <div class="navbar-one">
-        <ul class="ul-nav">
-            <li class="li-nav">edições anteriores</li>
-            <li class="li-nav">como funciona</li>
-            <li class="li-nav">dúvidas frequentes</li>
-            <li class="li-nav">blog</li>
-        </ul>
-    </div>
-
-    <div class="first-container-nav">
-        <h1 class="first-container-title">Maior Clube de Livros<br> Católico do Brasil</h1>
-        <button class="btn-nav">assinar</button> <button class="btn-nav">login</button>
-      </div>
-    </main>
--->
-
-    <div class="container">
-      <!-- Navbar -->
-      <div class="open-navbar-icon navbar-icon center">
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
-      </div>
-      <div class="navbar-wrapper">
-        <nav class="navbar">
-          <div class="close-navbar-icon navbar-icon center">
-            <div class="line line-1"></div>
-            <div class="line line-2"></div>
-          </div>
-          <div class="nav-list">
-            <a href="#" class="nav-link center">Escolha seu plano</a>
-            <a href="#" class="nav-link center">Preencha o formulário</a>
-            <a href="#" class="nav-link center">Receba o seu box</a>
-          </div>
-        </nav>
-      </div>
-      </div>
-      <!-- Fim da Navbar -->
+ <!--fim da main hero-->
 
       <!-- Slide edicoes anteriores - utilizando biblioteca swiffy slider -->     
+      <div class="slides">
       <div class="swiffy-slider slider-item-show4 slider-nav-outside slider-nav-dark slider-nav-sm slider-nav-visible slider-nav-page slider-item-snapstart slider-nav-autoplay slider-nav-autopause slider-item-ratio slider-item-ratio-contain slider-item-ratio-32x9 bg-white shadow-lg py-3 py-lg-4" data-slider-nav-autoplay-interval="3000">
         <div class="slider-container">
             <div><img src="./images/edicoes/captura 1.png" alt="..."></div>
@@ -130,6 +102,7 @@
             <div><img src="./images/edicoes/captura 4.png" loading="lazy" alt="..."></div>           
         </div>   
       </div>
+    </div>
       <!-- Fim slide edicoes anteriores -->
 
       <!-- Planos -->
@@ -201,8 +174,7 @@
         </div>
         
           <div class="story-bg">
-            <div class="story">
-              
+            <div class="story">            
                 <h1 class="story-heading">
                   +3​ MILHÕES​ de livros impressos
                 </h1>
@@ -219,13 +191,13 @@
 
       <!-- Indicacoes-->
       <div class="recommendations">        
-        <blockquote><img src="images/pepaulo.jpeg">Recomendo para vocês o trabalho da Minha Biblioteca Católica.
-          Quero recomendar porque os títulos são muito bons e a doutrina
-        católica é segura. <p>pe. Paulo Ricardo</p>
+        <blockquote><img src="images/pepaulo.jpeg">Recomendo para vocês o trabalho do Book Club.
+          Quero recomendar porque os títulos são muito bons.
+           <p>pe. Paulo Ricardo</p>
       </blockquote>
     
-      <blockquote><img src="images/camila1.png">Àqueles que quiserem crescer espiritualmente, ajuntando tesouros
-          nos céus, recomendo a Minha Biblioteca Católica.
+      <blockquote><img src="images/camila1.png">Àqueles que quiserem crescer, ajuntando tesouros
+         recomendo o Book Club.
           <p>Camila Abadie</p>
         </blockquote>
       </div>
@@ -233,16 +205,19 @@
 
        <!-- Cards story -->
        <div class="cards-story">
-          <img class="cards-story-img" src="images/cards/card1.png" height="306px" alt="box">
           <img class="cards-story-img" src="images/cards/card2.jpeg" height="306px" alt="box">
+          <img class="cards-story-img" src="images/cards/card1.jpeg" height="306px" alt="box">
+          <img class="cards-story-img" src="images/cards/card4.jpeg" height="306px" alt="box">
           <img class="cards-story-img" src="images/cards/card3.jpeg" height="306px" alt="box">
-          <img class="cards-story-img" src="images/cards/card5.jpeg" height="306px" alt="box">
        </div>      
       <!-- Fim de cards story -->
 
       <!-- Footer -->
       <footer class="footer">
-        <div class="footer-list">         
+        <span>Estamos contratando:
+        <a href="./cadastro.html">Trabalhe conosco</a>
+        </span>
+        <!--<div class="footer-list">         
           <ul>
             <b><a class="footer-link">Institucional</a></b>
             <li class="footer-link">Nossa história</li>
@@ -265,11 +240,10 @@
             <li class="footer-link">YouTube</li>
             <li class="footer-link">LinkedIn</li>
           </ul>          
-        </div><hr>
+        </div>--><hr>
 
         <div class="socialmedia">
           <img class="sociallogo" src="images/instagram.png" alt="instagram logo" height="40em">
-          <img class="sociallogo" src="images/facebook.png" alt="facebbok logo" height="40em">
           <img class="sociallogo" src="images/youtube.png" alt="youtube logo" height="40em">
           <img class="sociallogo" src="images/podcast.png" alt="podcast logo" height="40em">
           <img class="sociallogo" src="images/whatsapp.png" alt="whatsapp logo" height="40em">
@@ -277,7 +251,7 @@
         
         <hr>
         <p class="footer-paragraph">AD MAIOREM DEI GLORIAM</p>
-        <img 
+        
       </footer>
       <!-- Fim de Footer -->
     </div>
