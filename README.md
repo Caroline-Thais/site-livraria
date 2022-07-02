@@ -1,11 +1,9 @@
-# site clube de livros 
-
-Tecnologias: HTML, CSS e JavaScript.
-
+Book club site | site clube de livros Book Club 
 ---
-Book club site
+Project: https://caroline-thais.github.io/site-livraria/
+---
+Tecnologias | Technologies: HTML, CSS, JavaScript.
 
-Technologies: HTML, CSS and JavaScript.
 
 <img width="1425" alt="Captura de Tela 2022-07-02 às 18 49 58" src="https://user-images.githubusercontent.com/76595905/177017128-25b5f61b-d945-4dd4-8626-267b9d03ba16.png">
 
