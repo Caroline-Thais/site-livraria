@@ -1,6 +1,7 @@
 Book club site | site clube de livros Book Club 
 ---
 Project: https://caroline-thais.github.io/site-livraria/
+https://caroline-thais.github.io/site-livraria/cadastro.html
 ---
 Tecnologias | Technologies: HTML, CSS, JavaScript.
 
