@@ -4,6 +4,7 @@ Project: https://caroline-thais.github.io/site-livraria/
 https://caroline-thais.github.io/site-livraria/cadastro.html
 ---
 Tecnologias | Technologies: HTML, CSS, JavaScript.
+
 This site was made following a tutorial at a Javascript course from Code and Create(Udemy) but I added some of my ideas/code like the 'work for us' linked page and the two books caroulsels below the banner.
 
 
